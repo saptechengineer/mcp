@@ -1,9 +1,9 @@
-# Claude MCP Servers Collection
+# Local Claude MCP Servers Collection
 
 ![GitHub stars](https://img.shields.io/github/stars/saptechengineer/mcp?style=social)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-A professional collection of Model Calling Protocol (MCP) servers for enhancing Claude Desktop with external capabilities.
+A professional collection of locally-hosted Model Calling Protocol (MCP) servers for enhancing Claude Desktop with external capabilities while maintaining full control over your data and processing.
 
 > ⭐ **If you find this project useful, please consider giving it a star on GitHub to show your support!** ⭐
 
@@ -89,11 +89,9 @@ uv pip install -r requirements.txt
 
 ## Configuration
 
-### Configure Claude Desktop
+### Configuring Local MCP Servers
 
-1. Open Claude Desktop
-2. Navigate to: **File → Settings → Developer → Edit config**
-3. Add the following MCP server configurations:
+To configure the MCP servers from this repository on your local machine:
 
 ```json
 {
@@ -176,6 +174,22 @@ We're actively developing additional MCP servers:
 - Code Repository Analyzer
 - Data Visualization Tool
 
+
+
+## Using Cloud-Hosted MCP Servers
+
+As an alternative to running MCP servers locally, you can also use cloud-hosted options available through Smithery.ai:
+
+### Automated Configuration for Cloud-Hosted MCP Servers
+
+1. Visit [Smithery.ai](https://smithery.ai/)
+2. Find and copy the command for your desired cloud-hosted MCP server
+3. Run the command in your computer terminal
+4. The MCP configuration file will be automatically updated
+5. Restart Claude Desktop to use the new MCP servers
+
+> 🚀 **Pro Tip**: Cloud-hosted MCP servers can complement your local ones, giving you the best of both worlds - local processing for sensitive tasks and cloud services for specialized capabilities without managing infrastructure.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -183,11 +197,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgements
 
 - [Anthropic](https://www.anthropic.com/) for creating Claude
+- [Smithery.ai](https://smithery.ai/) for providing cloud-hosted MCP servers
 - All contributors who have helped shape this project
 
 ---
 
 <p align="center">
   <b>Made with ❤️ for the Claude community</b><br>
-  <a href="https://github.com/saptechengineer/mcp">Star this repo</a> if you found it useful! Thank you! 🌟
+  <a href="https://github.com/saptechengineer/mcp">Star this repo</a> if you found it useful!
 </p>
